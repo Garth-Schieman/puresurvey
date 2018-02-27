@@ -1,0 +1,484 @@
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    /* main container grid-template-columns,grid-template-rows,width,border,background-image,background-repeat,background-position,and background-size */
+    #mainContainer{
+                  grid-template-columns: repeat(1,1fr);
+                  grid-template-rows: repeat(1,1fr);
+                  width: 100%;
+                  border: 1px solid black;
+                  background-image: url("assets/mainBackground.png");
+    }
+    /* company label display,grid-template-columns,grid-template-rows,width,height,text-align,border,background-image;repeat;position;and size */
+    .companyLabel{
+                  display: grid;
+                  grid-template-columns: repeat(1,1fr);
+                  grid-template-rows: repeat(1,1fr);
+                  width: 100%;
+                  height: 300px;
+                  font-size: 30px;
+                  text-align: center;
+                  border: 1px solid black;
+                  background-image: url("assets/logoBackground.jpg");
+                  background-repeat: no-repeat;
+                  background-position: center;
+                  background-size: cover;
+
+    }
+    /* nav bar grid-template-columns,grid-template-rows,width,and height */
+    #navBar{
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: repeat(1,1fr);
+            height: auto;
+            background-color:#696D6B;
+            opacity: 0.7;
+            border: 1px solid black;
+            border-width: thin;
+            margin-bottom: 30px;
+    }
+    /* nav bar list display,list-style-type,list-style,and padding */
+    #navBar li{
+              display: inline-block;
+              list-style-type: none;
+              list-style: none;
+              margin-left: 80px;
+              padding: 0px 40px 0px 0px;
+
+    }
+    /* search button width */
+    #searchButton{
+                  width: 55px;
+    }
+    /*scroll position,right,bottom,cursor,width,height,background-colour,display,border-radius*/
+        #scroll {
+            position:fixed;
+            right:10px;
+            bottom:10px;
+            cursor:pointer;
+            width:50px;
+            height:60px;
+            background-color:#ff000000;
+            /* display:none; */
+            border: 1px solid black;
+            border-radius:10%;
+        }
+    /*scroll span position,top,left,bottom,height,width,font-size,and colour*/
+        #scroll span {
+            position:absolute;
+            top:20%;
+            left:30%;
+            bottom: 20%;
+            height:0;
+            width:0;
+            font-size: 30px;
+            color: gray;
+        }
+    /* banner image display,grid-template-columns,grid-template-rows,width,height,and padding-left */
+    #banner img{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: repeat(1,1fr);
+            width:600px;
+            height:300px;
+            padding-left: 150px;
+    }
+    /* Introduction display,grid-template-columns,grid-template-rows,and padding */
+    #intro{
+          display: grid;
+          grid-template-columns: repeat(1,1fr);
+          grid-template-rows: repeat(1,1fr);
+          padding:80px 150px;
+    }
+
+    /* start survey button width,height,margin-top,font-size,border,border-width,border-radius,and background-colour */
+    .startSurvey{
+                  width: 180px;
+                  height: 45px;
+                  margin-top: 30px;
+                  font-size: 16px;
+                  border: 3px solid black;
+                  border-width: thin;
+                  border-radius: 20%;
+                  background-color: #696D6B;
+    }
+    /* start survey button hover width,height,and background-colour */
+    .startSurvey:hover{
+                        width: 200px;
+                        height: 55px;
+                        background-color: purple;
+    }
+    /* footer display,grid-template-columns,grid-template-rows,width,height,and background-colour */
+    #footer{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: repeat(1,1fr);
+            width: 100%;
+            height: auto;
+            background-color:#696D6B;
+            opacity: 0.7;
+    }
+    /* contact info display,grid-template-columns,grid-template-rows,and padding-left */
+    .contactInfo{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                grid-template-rows: repeat(1,1fr);
+                padding-left: 40px;
+    }
+    /* services unordered list; list-style-type,and margin-bottom */
+    .services ul{
+                list-style-type: square;
+                margin-bottom: 20px;
+    }
+    /* services anchor padding-bottom,text-decoration,and colour */
+    .services li a{
+                  padding-bottom: 20px;
+                  text-decoration: none;
+                  color: black;
+    }
+    /* services hover colour */
+    .services a:hover{
+                      color: red;
+    }
+    /* social media list-style,list-style-type,display,and padding */
+    #socialMedia li{
+                list-style: none;
+                list-style-type: none;
+                display: inline;
+                padding:5px;
+    }
+    /* signature bar display,grid-template-column,grid-template-rows,text-align,border,and border-width */
+    .signatureBar{
+                  display: grid;
+                  grid-template-columns: repeat(1,1fr);
+                  grid-template-rows: repeat(1,1fr);
+                  text-align: center;
+                  border: 2px solid black;
+                  border-width: thick;
+    }
+}
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 481px)
+  and (max-device-width: 768px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    /* main container grid-template-columns,grid-template-rows,width,border,background-image,background-repeat,background-position,and background-size */
+    #mainContainer{
+                  grid-template-columns: repeat(1,1fr);
+                  grid-template-rows: repeat(1,1fr);
+                  width: 100%;
+                  border: 1px solid black;
+                  background-image: url("assets/mainBackground.png");
+    }
+    /* company label display,grid-template-columns,grid-template-rows,width,height,text-align,border,background-image;repeat;position;and size */
+    .companyLabel{
+                  display: grid;
+                  grid-template-columns: repeat(1,1fr);
+                  grid-template-rows: repeat(1,1fr);
+                  width: 100%;
+                  height: 300px;
+                  font-size: 30px;
+                  text-align: center;
+                  border: 1px solid black;
+                  background-image: url("assets/logoBackground.jpg");
+                  background-repeat: no-repeat;
+                  background-position: center;
+                  background-size: cover;
+
+    }
+    /* nav bar grid-template-columns,grid-template-rows,width,and height */
+    #navBar{
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: repeat(1,1fr);
+            height: auto;
+            background-color:#696D6B;
+            opacity: 0.7;
+            border: 1px solid black;
+            border-width: thin;
+            margin-bottom: 30px;
+    }
+    /* nav bar list display,list-style-type,list-style,and padding */
+    #navBar li{
+              display: inline-block;
+              list-style-type: none;
+              list-style: none;
+              margin-left: 80px;
+              padding: 0px 40px 0px 0px;
+
+    }
+    /* search button width */
+    #searchButton{
+                  width: 55px;
+    }
+    /*scroll position,right,bottom,cursor,width,height,background-colour,display,border-radius*/
+        #scroll {
+            position:fixed;
+            right:10px;
+            bottom:10px;
+            cursor:pointer;
+            width:50px;
+            height:60px;
+            background-color:#ff000000;
+            /* display:none; */
+            border: 1px solid black;
+            border-radius:10%;
+        }
+    /*scroll span position,top,left,bottom,height,width,font-size,and colour*/
+        #scroll span {
+            position:absolute;
+            top:20%;
+            left:30%;
+            bottom: 20%;
+            height:0;
+            width:0;
+            font-size: 30px;
+            color: gray;
+        }
+    /* banner image display,grid-template-columns,grid-template-rows,width,height,and padding-left */
+    #banner img{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: repeat(1,1fr);
+            width:600px;
+            height:300px;
+            padding-left: 150px;
+    }
+    /* Introduction display,grid-template-columns,grid-template-rows,and padding */
+    #intro{
+          display: grid;
+          grid-template-columns: repeat(1,1fr);
+          grid-template-rows: repeat(1,1fr);
+          padding:80px 150px;
+    }
+
+    /* start survey button width,height,margin-top,font-size,border,border-width,border-radius,and background-colour */
+    .startSurvey{
+                  width: 180px;
+                  height: 45px;
+                  margin-top: 30px;
+                  font-size: 16px;
+                  border: 3px solid black;
+                  border-width: thin;
+                  border-radius: 20%;
+                  background-color: #696D6B;
+    }
+    /* start survey button hover width,height,and background-colour */
+    .startSurvey:hover{
+                        width: 200px;
+                        height: 55px;
+                        background-color: purple;
+    }
+    /* footer display,grid-template-columns,grid-template-rows,width,height,and background-colour */
+    #footer{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: repeat(1,1fr);
+            width: 100%;
+            height: auto;
+            background-color:#696D6B;
+            opacity: 0.7;
+    }
+    /* contact info display,grid-template-columns,grid-template-rows,and padding-left */
+    .contactInfo{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                grid-template-rows: repeat(1,1fr);
+                padding-left: 40px;
+    }
+    /* services unordered list; list-style-type,and margin-bottom */
+    .services ul{
+                list-style-type: square;
+                margin-bottom: 20px;
+    }
+    /* services anchor padding-bottom,text-decoration,and colour */
+    .services li a{
+                  padding-bottom: 20px;
+                  text-decoration: none;
+                  color: black;
+    }
+    /* services hover colour */
+    .services a:hover{
+                      color: red;
+    }
+    /* social media list-style,list-style-type,display,and padding */
+    #socialMedia li{
+                list-style: none;
+                list-style-type: none;
+                display: inline;
+                padding:5px;
+    }
+    /* signature bar display,grid-template-column,grid-template-rows,text-align,border,and border-width */
+    .signatureBar{
+                  display: grid;
+                  grid-template-columns: repeat(1,1fr);
+                  grid-template-rows: repeat(1,1fr);
+                  text-align: center;
+                  border: 2px solid black;
+                  border-width: thick;
+    }
+
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen
+  and (min-device-width: 769px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    /* main container grid-template-columns,grid-template-rows,width,border,background-image,background-repeat,background-position,and background-size */
+    #mainContainer{
+                  grid-template-columns: repeat(1,1fr);
+                  grid-template-rows: repeat(1,1fr);
+                  width: 100%;
+                  height: auto;
+                  border: 1px solid black;
+                  background-image: url("assets/mainBackground.png");
+    }
+    /* company label display,grid-template-columns,grid-template-rows,width,height,text-align,border,background-image;repeat;position;and size */
+    .companyLabel{
+                  display: grid;
+                  grid-template-columns: repeat(1,1fr);
+                  grid-template-rows: repeat(1,1fr);
+                  width: 100%;
+                  height: 300px;
+                  font-size: 30px;
+                  text-align: center;
+                  border: 1px solid black;
+                  background-image: url("assets/logoBackground.jpg");
+                  background-repeat: no-repeat;
+                  background-position: center;
+                  background-size: cover;
+
+    }
+    /* nav bar grid-template-columns,grid-template-rows,width,and height */
+    #navBar{
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: repeat(1,1fr);
+            height: auto;
+            background-color:#696D6B;
+            opacity: 0.7;
+            border: 1px solid black;
+            border-width: thin;
+            margin-bottom: 30px;
+    }
+    /* nav bar list display,list-style-type,list-style,and padding */
+    #navBar li{
+              display: inline-block;
+              list-style-type: none;
+              list-style: none;
+              padding: 0px 10px 0px 0px;
+
+    }
+    /* search button width */
+    #searchButton{
+                  width: 55px;
+    }
+    /*scroll position,right,bottom,cursor,width,height,background-colour,display,border-radius*/
+        #scroll {
+            position:fixed;
+            right:10px;
+            bottom:10px;
+            cursor:pointer;
+            width:50px;
+            height:60px;
+            background-color:#ff000000;
+            /* display:none; */
+            border: 1px solid black;
+            border-radius:10%;
+        }
+    /*scroll span position,top,left,bottom,height,width,font-size,and colour*/
+        #scroll span {
+            position:absolute;
+            top:20%;
+            left:30%;
+            bottom: 20%;
+            height:0;
+            width:0;
+            font-size: 30px;
+            color: gray;
+        }
+    /* banner image display,grid-template-columns,grid-template-rows,width,height,and padding-left */
+    #banner img{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: repeat(1,1fr);
+            width:700px;
+            height:300px;
+            padding-left: 150px;
+    }
+    /* Introduction display,grid-template-columns,grid-template-rows,and padding */
+    #intro{
+          display: grid;
+          grid-template-columns: repeat(1,1fr);
+          grid-template-rows: repeat(1,1fr);
+          padding:80px 150px;
+    }
+
+    /* start survey button width,height,margin-top,font-size,border,border-width,border-radius,and background-colour */
+    .startSurvey{
+                  width: 180px;
+                  height: 45px;
+                  margin-top: 30px;
+                  font-size: 16px;
+                  border: 3px solid black;
+                  border-width: thin;
+                  border-radius: 20%;
+                  background-color: #696D6B;
+    }
+    /* start survey button hover width,height,and background-colour */
+    .startSurvey:hover{
+                        width: 200px;
+                        height: 55px;
+                        background-color: purple;
+    }
+    /* footer display,grid-template-columns,grid-template-rows,width,height,and background-colour */
+    #footer{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: repeat(1,1fr);
+            width: 100%;
+            height: auto;
+            background-color:#696D6B;
+            opacity: 0.7;
+    }
+    /* contact info display,grid-template-columns,grid-template-rows,and padding-left */
+    .contactInfo{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                grid-template-rows: repeat(1,1fr);
+                padding-left: 40px;
+    }
+    /* services unordered list; list-style-type,and margin-bottom */
+    .services ul{
+                list-style-type: square;
+                margin-bottom: 20px;
+    }
+    /* services anchor padding-bottom,text-decoration,and colour */
+    .services li a{
+                  padding-bottom: 20px;
+                  text-decoration: none;
+                  color: black;
+    }
+    /* services hover colour */
+    .services a:hover{
+                      color: red;
+    }
+    /* social media list-style,list-style-type,display,and padding */
+    #socialMedia li{
+                list-style: none;
+                list-style-type: none;
+                display: inline;
+                padding:5px;
+    }
+    /* signature bar display,grid-template-column,grid-template-rows,text-align,border,and border-width */
+    .signatureBar{
+                  display: grid;
+                  grid-template-columns: repeat(1,1fr);
+                  grid-template-rows: repeat(1,1fr);
+                  text-align: center;
+                  border: 2px solid black;
+                  border-width: thick;
+    }
+
+}
